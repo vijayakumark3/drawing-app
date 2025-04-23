@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+}
+
+.tools {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
